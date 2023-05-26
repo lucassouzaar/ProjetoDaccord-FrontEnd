@@ -1,0 +1,185 @@
+body {
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+
+header {
+    position: fixed; /* Mantém o cabeçalho fixo no topo */
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #02807f;
+}
+.logo {
+    width: 10%;
+    margin-top: -15px;
+    margin-left: 5px;
+}
+
+hr {
+    margin: 0 10px;
+    border: none;
+    border-left: 1px solid white;
+}
+
+.cabecalho {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #02807f;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 20px;
+    width: 1110px;
+}
+
+.cabecalho button {
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    background-color: #02807f;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.cabecalho button:hover {
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    background-color: #02807f;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+.sidebar {
+    position: fixed; /* Mantém a sidebar fixa */
+    top: 95px;
+    left: 0;
+    bottom: 0;
+    background-color: #02807f;
+    width: 200px;
+    text-align: center;
+    z-index: -1; /* Coloca a sidebar abaixo do cabeçalho */
+}
+
+
+.sidebar hr {
+    border: none;
+    border-top: 1px solid white;
+    margin: 10px 0;    
+  }
+
+
+.sidebar button {
+    margin: auto;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #02807f;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 20px;
+}
+
+.sidebar button:hover {
+    margin: auto;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    background-color: #02807f;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 20px;
+}
+.sidebar .concluir {
+    display: flex;
+    border-color: rgba(0, 130, 0, 0.9);
+    color: rgba(0, 130, 0, 0.9);
+    border-style: solid;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    padding: 8px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.sidebar .concluir:hover {
+    background-color:rgba(0, 130, 0, 0.9);
+    display: flex;
+    border-color: rgba(0, 130, 0, 0.9);
+    color: white;
+    border-style: solid;    
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-family: 'Montserrat', sans-serif;
+    padding: 8px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+
+.sidebar .deletar {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    border-color: rgb(224,44,53);
+    color: rgb(224,44,53);
+    border-style: solid;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 95px;
+    font-weight: bolder;
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    padding: 8px;
+    margin-top: 25px;
+}
+
+.sidebar .deletar:hover {
+   background-color: rgb(224,44,53);
+   display: flex;
+   margin: auto;
+   justify-content: center;
+   border-color: rgb(224,44,53);
+   color: white;
+   border-style: solid;
+   border-radius: 5px;
+   cursor: pointer;
+   width: 95px;
+   font-weight: bolder;
+   font-family: 'Montserrat', sans-serif;
+   padding: 8px;
+   margin-top: 25px;
+}
+
+.centro-tela {  
+    position: fixed;
+    margin: auto;
+    top: 92px;
+    width: 900px;
+    height: 100%;
+    left: 200px;
+    right: 0px;    
+}
+
+.centro-tela h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    color: black;  
+    margin-top: 50px;
+}
+    

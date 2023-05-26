@@ -1,0 +1,114 @@
+  body {
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bolder;
+  }
+
+  header {
+      position: fixed; /* Mantém o cabeçalho fixo no topo */
+      top: 0;
+      left: 0;
+      right: 0;
+      background-color: #02807f;
+  }
+  .logo {
+      width: 10%;
+      margin-top: -15px;
+      margin-left: 5px;
+  }
+  
+  hr {
+      margin: 0 10px;
+      border: none;
+      border-left: 1px solid white;
+  }
+  
+  .cabecalho {
+      position: fixed;
+      top: 0;
+      right: 0;
+      background-color: #02807f;
+      height: 90px;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      padding: 0 20px;
+      width: 1110px;
+  }
+  
+  .cabecalho button {
+      outline: none;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 18px;
+      background-color: #02807f;
+      border: none;
+      color: white;
+      cursor: pointer;
+      font-weight: bolder;
+  }
+  
+  .cabecalho button:hover {
+      outline: none;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 18px;
+      background-color: #02807f;
+      border: none;
+      color: white;
+      cursor: pointer;
+      font-weight: bolder;
+      text-decoration: underline;
+  }
+      
+    .swiper-container {
+      margin-top: 150px;
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      display: flex;      
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .news-heading {
+      text-align: center;
+      margin: auto;
+    }
+      
+    
+    .fluxo h2 {
+        font-size: 20px;
+        display: flex;
+        width: 100%;
+        margin-top: 220px;
+        margin-left: 120px;
+    }
+      
+    .linha-fluxo {
+        margin: auto;
+        justify-content: center;
+        display: flex;
+        background-color: #02807f;
+        border-radius: 10px;
+        width: 80%;
+    }
+      
+    .item-fluxo {
+        flex: 1; /* Adicionado para ocupar o espaço disponível */
+        display: flex;
+        justify-content: center;
+        background-color: #02807f; 
+        border: 1px;
+        border-radius: 10px;
+    }
+      
+    .seta {
+        display: flex;
+        justify-content: center;
+        font-size: 18px;
+        color: #ccc;
+        background-color: #02807f;
+    }
+      
